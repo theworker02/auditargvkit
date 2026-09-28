@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/auditargvkit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Audit host/argv network string helpers for config audits.",
+  "bin": {
+    "auditargvkit": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/auditargvkit.git"
+  },
+  "homepage": "https://theworker02.github.io/auditargvkit/",
+  "keywords": [
+    "audit",
+    "argv",
+    "net",
+    "cli",
+    "toolkit"
+  ]
+}
